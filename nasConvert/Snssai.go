@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 
 	"github.com/free5gc/nas/logger"
-	"github.com/free5gc/nas/nasType"
-	"github.com/free5gc/openapi/models"
+	"github.com/ramprabudgl/nas/nasType"
+	"github.com/ramprabudgl/openapi/models"
 )
 
 // TS24.501 9.11.2.8 S-NSSAI
