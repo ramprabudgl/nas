@@ -3,8 +3,8 @@
 package nas
 
 import (
-	"github.com/free5gc/nas/nasMessage"
-	"github.com/free5gc/nas/nasType"
+	"github.com/ramprabudgl/nas/nasMessage"
+	"github.com/ramprabudgl/nas/nasType"
 )
 
 var testsGmmMessage = []struct {
