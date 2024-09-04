@@ -7,7 +7,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/free5gc/nas/nasMessage"
+	"github.com/ramprabudgl/nas/nasMessage"
 )
 
 type GmmMessage struct {
