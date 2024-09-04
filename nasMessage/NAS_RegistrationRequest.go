@@ -44,6 +44,11 @@ func NewRegistrationRequest(iei uint8) (registrationRequest *RegistrationRequest
 	return registrationRequest
 }
 
+
+
+
+////////////testing : line 
+
 const (
 	RegistrationRequestNoncurrentNativeNASKeySetIdentifierType uint8 = 0x0C
 	RegistrationRequestCapability5GMMType                      uint8 = 0x10
