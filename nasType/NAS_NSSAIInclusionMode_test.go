@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/free5gc/nas/nasType"
+	"github.com/ramprabudgl/nas/nasType"
 )
 
 var RegistrationAcceptNSSAIInclusionModeTypeIeiInput uint8 = 0x0A

@@ -10,8 +10,8 @@ import (
 	//"fmt"
 	"github.com/free5gc/nas"
 	"github.com/free5gc/nas/logger"
-	"github.com/free5gc/nas/nasMessage"
-	"github.com/free5gc/nas/nasType"
+	"github.com/ramprabudgl/nas/nasMessage"
+	"github.com/ramprabudgl/nas/nasType"
 )
 
 type nasMessageIdentityResponseData struct {

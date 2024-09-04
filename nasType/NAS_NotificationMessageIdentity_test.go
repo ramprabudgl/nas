@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/free5gc/nas"
-	"github.com/free5gc/nas/nasType"
+	"github.com/ramprabudgl/nas/nasType"
 )
 
 func TestNasTypeNewNotificationMessageIdentity(t *testing.T) {

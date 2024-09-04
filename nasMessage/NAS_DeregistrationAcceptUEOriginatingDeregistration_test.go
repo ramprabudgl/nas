@@ -9,7 +9,7 @@ import (
 
 	"github.com/free5gc/nas"
 	"github.com/free5gc/nas/logger"
-	"github.com/free5gc/nas/nasMessage"
+	"github.com/ramprabudgl/nas/nasMessage"
 )
 
 type nasMessageDeregistrationAcceptUEOriginatingDeregistrationData struct {

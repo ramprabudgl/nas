@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/free5gc/nas/logger"
-	"github.com/free5gc/nas/nasMessage"
-	"github.com/free5gc/nas/nasType"
+	"github.com/ramprabudgl/nas/nasMessage"
+	"github.com/ramprabudgl/nas/nasType"
 )
 
 type nasMessagePDUSessionModificationRequestData struct {

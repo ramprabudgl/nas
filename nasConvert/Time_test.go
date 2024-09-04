@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/free5gc/nas/nasConvert"
-	"github.com/free5gc/nas/nasType"
+	"github.com/ramprabudgl/nas/nasType"
 	"github.com/stretchr/testify/require"
 )
 

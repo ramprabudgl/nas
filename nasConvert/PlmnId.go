@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/free5gc/nas/logger"
-	"github.com/free5gc/openapi/models"
+	"github.com/ramprabudgl/openapi/models"
 )
 
 func PlmnIDToNas(plmnID models.PlmnId) []uint8 {
