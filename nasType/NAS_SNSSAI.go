@@ -66,6 +66,13 @@ func (a *SNSSAI) SetSD(sD [3]uint8) {
 	copy(a.Octet[1:4], sD[:])
 }
 
+func (a *SNSSAI) SetNID(nID [3]uint8) {
+	copy(a.Octet[1:4], nID[:])
+}
+func (a *SNSSAI) GetNID() (nID [3]uint8) {
+	copy(nID[:], a.Octet[1:4])
+	return nID
+}
 // SNSSAI 9.11.2.8
 // MappedHPLMNSST Row, sBit, len = [4, 4], 8 , 8
 func (a *SNSSAI) GetMappedHPLMNSST() (mappedHPLMNSST uint8) {
